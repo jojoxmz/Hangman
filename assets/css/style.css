@@ -2,32 +2,27 @@ body{
 	background: lightyellow;
 	text-align: center;
 	width: 100%;
-}
-
-p{
-	font-size: 20px;
-	font-weight: 10px;
+	font-family: "Arial"
 }
 
 h1{
 	width: 100%;
 	background: black;
 	color: white;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bolder;
 }
 
 #main-header{
 	height: 200px;
 }
 
-#guess-that-pokemon{
-	height: 200px;
-	width: auto;
-}
-
 .main-container{
 	margin: 0 auto;
 	width: 980px;
-
+	height: auto;
 }
 
 .first-column{
@@ -40,6 +35,21 @@ h1{
 .second-column{
 	margin-top: 20px;
 	width: 100%;
+	height: 300px;
 	background: white;
 	border: ridge 5px black;
+}
+
+.third-column{
+	float: left;
+	width: 50%;
+}
+
+.fourth-column{
+	float: right;
+	width: 40%;
+}
+
+.fifth-column{
+	margin-bottom: 10px;
 }

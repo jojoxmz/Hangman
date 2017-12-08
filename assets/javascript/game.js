@@ -1,0 +1,49 @@
+After array has been established (mine is already named wordBank)
+
+
+
+
+
+
+// New variable:
+let (var?) randNum = Math.floor(Math.random() * wordBank.legnth);
+
+another new variable:
+let (var?) choosenWord = word[randNum];
+console.log (chosenWord);
+
+and another:
+let (var?) underScore = [];
+console.log (chosenWord);
+
+another two...gets added after "if user's guess is right"
+var guessRight = [];
+var guessWrong = [];
+
+generate underscores based on the legnth of the array (each word):
+var generateUnderscore = () => {
+for (var i = 0; i < chosenWord.length; i++) {
+  console.log(wordBank[i]);
+underScore.push ('_');    ....the "_" mean we will be pushing underScore itself
+
+		}
+	return underScore;
+	}
+	console.log(generateUnderscore());
+
+
+	// Now we have to capture the user's guess:
+document.addEventListener ('keypress', (event) => {
+console.log(event);   
+
+
+// Now we convert the key code into a letter
+var keyCode = event.keycode <----but no..wait, were going to convert that into a string. See
+var KeyWord = String.fromCharCode(keyCode);
+
+// If user's guess is right:
+if (chosenWord.Indexof(Keyword > -1) {
+	rightWord.push(keyWord)
+	wrongWord.push(keyWord)
+}
+});
