@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<title>Hangman Game</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+
+	<header class="container header">
+		<img id="main-header" src="assets/images/pokemon_logo.png" alt="pokemon hangman">
+	</header>
+
+	<div class="container main-container">
+
+		<div class="first-column">
+			<h1>WHOSE THAT POKEMON?</h1>
+			
+			<img id="guess-that-pokemon" src="assets/images/guess-that-pokemon.PNG" alt="guess that pokemon">
+
+		</div>
+
+		<div class="second-column">
+			
+			<div class="fourth-column">
+				<h3>WINS</h3>
+					<div id="wins"></div>
+			</div>
+			
+			<div class="fourth-column">
+				<h3>CURRENT WORD</h3>
+					<div id="currentWord"></div>
+			</div>
+			
+			<div class="fourth-column">
+				<h3>NUMBER OF GUESSES REMAINING</h3>
+					<div id="guesses"></div>
+			</div>
+
+			<div class="fourth-column">
+				<h3>LETTERS ALREADY GUESSED</h3>
+					<div id="lettersGuessed"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
 
 </body>
 </html>

@@ -1,0 +1,45 @@
+body{
+	background: lightyellow;
+	text-align: center;
+	width: 100%;
+}
+
+p{
+	font-size: 20px;
+	font-weight: 10px;
+}
+
+h1{
+	width: 100%;
+	background: black;
+	color: white;
+}
+
+#main-header{
+	height: 200px;
+}
+
+#guess-that-pokemon{
+	height: 200px;
+	width: auto;
+}
+
+.main-container{
+	margin: 0 auto;
+	width: 980px;
+
+}
+
+.first-column{
+	margin-top: 20px;
+	width: 100%;
+	background: white;
+	border: ridge 5px black;
+}
+
+.second-column{
+	margin-top: 20px;
+	width: 100%;
+	background: white;
+	border: ridge 5px black;
+}
