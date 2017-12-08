@@ -41,13 +41,20 @@ h1{
 }
 
 .third-column{
+	padding-top: 20px;
 	float: left;
-	width: 50%;
+	width: 55%;
+/*	border: dotted 5px black;
+*/ ;
 }
 
 .fourth-column{
+		padding-top: 20px;
+
 	float: right;
-	width: 40%;
+	width: 42%;
+/*	border: dotted 5px black;
+*/
 }
 
 .fifth-column{

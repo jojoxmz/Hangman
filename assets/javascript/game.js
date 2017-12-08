@@ -1,4 +1,23 @@
-After array has been established (mine is already named wordBank)
+
+// After array has been established (mine is already named wordBank)
+
+var wordBank =["bulbasaur", "eevee", "jolteon", "lapras", "pikachu", "squirtle"];
+var chosenWord= "";
+var lettersInChosenWord= [];
+var blankSpaces= 0;
+var blankAndFilled= [];
+var wrongGuesses =[];
+
+
+var wins= 0;
+var numOfGuessesRemain= 9;
+var guesses =[];
+
+var lives;
+var counter;
+
+var showLives= document.getElementById("guessesRemaining");
+var 
 
 
 
@@ -6,7 +25,7 @@ After array has been established (mine is already named wordBank)
 
 
 // New variable:
-let (var?) randNum = Math.floor(Math.random() * wordBank.legnth);
+let (var?) randNum = Math.floor(Math.random() * PokemonNames.length);
 
 another new variable:
 let (var?) choosenWord = word[randNum];
