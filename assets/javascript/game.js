@@ -1,6 +1,7 @@
 
 // After array has been established (mine is already named wordBank)
 
+var available letters= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var wordBank =["bulbasaur", "eevee", "jolteon", "lapras", "pikachu", "squirtle"];
 var chosenWord= "";
 var lettersInChosenWord= [];
@@ -8,19 +9,11 @@ var blankSpaces= 0;
 var blankAndFilled= [];
 var wrongGuesses =[];
 
-
 var wins= 0;
-var numOfGuessesRemain= 9;
+var numOfGuessesRemain= 10;
 var guesses =[];
 
-var lives;
-var counter;
-
-var showLives= document.getElementById("guessesRemaining");
-var 
-
-
-
+var numOfGuessesRemain= document.getElementById("guessesRemaining");
 
 
 
