@@ -7,19 +7,34 @@ var wordBank =["bulbasaur", "eevee", "jolteon", "lapras", "pikachu", "squirtle"]
 var pokemonInfo = [
 	{
 		name: "bulbasaur",
-		shadow: "./assets/images/bulbasaur_shadow.png",
-		solved: "./assets/images/bulbasaur.png"
+		shadow: "./assets/images/Bulbasaur-shadow.jpg",
+		solved: "./assets/images/Bulbasaur.png",
 	},
 	{
 		name: "eevee",
-		shadow: "link",
-		solved: "link",
+		shadow: "./assets/images/Eevee-shadow.jpg",
+		solved: "./assets/images/Eevee.png",
 	},
 	{
 		name: "jolteon",
-		shadow: "link",
-		solved: "link",
-	}
+		shadow: "./assets/images/Jolteon-shadow.jpg",
+		solved: "./assets/images/Jolteon-shadow.jpg",
+	},
+	{
+		name: "lapras",
+		shadow: "./assets/images/lapras-shadow.jpg",
+		solved: "./assets/images/Lapras.png",
+	},
+	{
+		name: "pikachu",
+		shadow: "./assets/images/pikachu-shadow.jpg",
+		solved: "./assets/images/pikachu.png",
+	},
+	{
+		name: "squirtle",
+		shadow: "./assets/images/Squirtle-shadow.jpg",
+		solved: "./assets/images/Squirtle.png",
+	},
 ]
 
 var currentWord;
@@ -56,7 +71,30 @@ function makeUnderscore(word){
 
 //look up .indexof js//
 function checkUserGuess(letter){
+
+	if (userGuess == computerGuess) {
+            wins++;
+            guessesLeft = 9; //reseting the guesses back to 9 so that the user can play again
+            guessesSoFar.length = 0; //this removes everything from the guesses so far array, so that the guesses from the previous round don't show
+        }
+
+
+        else if (guessesLeft == 0){
+            losses++;
+            guessesRemaining = 5;
+            lettersGuessed.length = 0;
+
+        }
+        else if (userGuess !== computerGuess){
+            guessesLeft--; //decrementing the guesses left
+        }  
+
+
+
+
+
 	//check if guess is in current word//
+	//check letter value if its in word//
 
 	//if guess is in current word -- correct
 	//display guess 
