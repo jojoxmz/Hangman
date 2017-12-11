@@ -1,5 +1,5 @@
 body{
-	background: lightyellow;
+	background: #6eb276;
 	text-align: center;
 	width: 100%;
 	font-family: "Arial"
@@ -24,6 +24,7 @@ h1{
 	margin: 0 auto;
 	width: 980px;
 	height: auto;
+	padding-bottom: 50px;
 }
 
 .first-column{
@@ -69,4 +70,13 @@ h1{
 	padding-top: 10px;
 	height: 300px;
 	width: auto;
+}
+
+.pokeballs{
+	width: 50px;
+	padding-bottom: 10px;
+}
+
+#guess-that-pokemon{
+	height: 230px;
 }
