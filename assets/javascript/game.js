@@ -1,7 +1,6 @@
 
 // After array has been established (mine is already named wordBank)
 
-var availableLetters= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var wordBank =["bulbasaur", "eevee", "jolteon", "lapras", "pikachu", "squirtle"];
 
 var pokemonInfo = [
@@ -71,27 +70,6 @@ function makeUnderscore(word){
 
 //look up .indexof js//
 function checkUserGuess(letter){
-
-	if (availableLetters !== currentWord) {
-            numberOfWins = 0;
-            lettersGuessed.length; 
-        }
-}
-
-
-        // else if (guessesLeft == 0){
-        //     losses++;
-        //     guessesRemaining = 5;
-        //     lettersGuessed.length = 0;
-
-        // }
-        // else if (userGuess !== computerGuess){
-        //     guessesLeft--; //decrementing the guesses left
-        // }  
-
-
-
-
 
 	//check if guess is in current word//
 	//check letter value if its in word//
